@@ -1,7 +1,12 @@
 aid: roper-technologies
-url: https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/roper-technologies/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.roper-technologies.com
+description: >-
+  Roper Technologies is a diversified technology company that operates businesses
+  that design and develop software and engineered products and solutions for healthcare,
+  transportation, food, energy, water, and education.
