@@ -1,0 +1,55 @@
+{
+  "name": "RoperTechnologies",
+  "description": "Corporate structure of Roper Technologies, a diversified technology holding company operating vertical software and technology-enabled product businesses",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "description": "Company name: Roper Technologies",
+      "required": true
+    },
+    {
+      "name": "ticker",
+      "type": "string",
+      "description": "NASDAQ ticker symbol: ROP",
+      "required": true
+    },
+    {
+      "name": "website",
+      "type": "string",
+      "description": "Corporate website URL"
+    },
+    {
+      "name": "segments",
+      "type": "array",
+      "description": "Three operating segments: Application Software, Network Software, Technology Enabled Products",
+      "required": true,
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "description": "Segment name",
+          "required": true
+        },
+        {
+          "name": "revenuePercentage",
+          "type": "number",
+          "description": "Approximate revenue contribution percentage"
+        },
+        {
+          "name": "subsidiaries",
+          "type": "array",
+          "description": "Portfolio companies within this segment",
+          "fields": [
+            { "name": "name", "type": "string", "description": "Subsidiary name", "required": true },
+            { "name": "website", "type": "string", "description": "Subsidiary website URL", "required": true },
+            { "name": "verticalMarket", "type": "string", "description": "Industry vertical", "required": true },
+            { "name": "description", "type": "string", "description": "Product and customer overview" },
+            { "name": "apiDocumentation", "type": "string", "description": "Developer documentation URL" },
+            { "name": "revenueModel", "type": "string", "description": "Revenue model: SaaS, Licensed, Transactional" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.ropertech.com/schemas/company.json",
+  "title": "Roper Technologies Company Profile",
+  "description": "Schema representing Roper Technologies' corporate structure, business segments, and portfolio of software subsidiaries.",
+  "type": "object",
+  "$defs": {
+    "BusinessSegment": {
+      "type": "object",
+      "title": "BusinessSegment",
+      "description": "One of Roper Technologies' three operating segments",
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Segment name",
+          "enum": ["Application Software", "Network Software", "Technology Enabled Products"]
+        },
+        "revenuePercentage": {
+          "type": "number",
+          "description": "Approximate percentage of total Roper Technologies revenue from this segment",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "subsidiaries": {
+          "type": "array",
+          "description": "Subsidiary businesses within this segment",
+          "items": { "$ref": "#/$defs/Subsidiary" }
+        }
+      }
+    },
+    "Subsidiary": {
+      "type": "object",
+      "title": "Subsidiary",
+      "description": "A Roper Technologies portfolio company",
+      "required": ["name", "website", "verticalMarket"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Subsidiary company name"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri",
+          "description": "Primary website URL"
+        },
+        "verticalMarket": {
+          "type": "string",
+          "description": "Industry vertical served by this subsidiary"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the subsidiary's products and customers"
+        },
+        "apiDocumentation": {
+          "type": "string",
+          "format": "uri",
+          "description": "Developer/API documentation URL if available"
+        },
+        "revenueModel": {
+          "type": "string",
+          "description": "Primary revenue model",
+          "enum": ["SaaS", "Licensed", "Transactional", "Subscription", "Hardware + Software"]
+        }
+      }
+    }
+  },
+  "required": ["name", "ticker", "segments"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Company name",
+      "const": "Roper Technologies"
+    },
+    "ticker": {
+      "type": "string",
+      "description": "Stock ticker symbol",
+      "const": "ROP"
+    },
+    "exchange": {
+      "type": "string",
+      "description": "Stock exchange",
+      "const": "NASDAQ"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "Corporate website"
+    },
+    "description": {
+      "type": "string",
+      "description": "Corporate description"
+    },
+    "segments": {
+      "type": "array",
+      "description": "Roper Technologies' three operating business segments",
+      "items": { "$ref": "#/$defs/BusinessSegment" },
+      "minItems": 3,
+      "maxItems": 3
+    }
+  }
+}

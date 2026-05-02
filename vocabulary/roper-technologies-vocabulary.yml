@@ -1,0 +1,133 @@
+name: Roper Technologies Vocabulary
+description: >-
+  Vocabulary and taxonomy for Roper Technologies and its portfolio of vertical
+  software and technology-enabled businesses, covering legal, healthcare,
+  insurance, education, construction, transportation, and industrial domains.
+created: '2026-05-02'
+modified: '2026-05-02'
+terms:
+  - term: Roper Technologies
+    definition: >-
+      A diversified technology holding company (NASDAQ: ROP) that acquires and
+      operates niche market-leading software and technology-enabled businesses
+      with high recurring revenue models across healthcare, legal, education,
+      insurance, construction, and transportation verticals.
+    tags:
+      - Core
+      - Fortune 500
+  - term: Application Software Segment
+    definition: >-
+      Roper Technologies' largest business segment (~55% of revenue) comprising
+      vertical SaaS platforms for legal firms (Aderant), laboratory informatics
+      (Clinisys), project ERP (Deltek), K-12 education HR (Frontline),
+      insurance technology (Vertafore), supply chain visibility (IntelliTrans),
+      and financial management (PowerPlan, Strata).
+    tags:
+      - Business Segment
+  - term: Network Software Segment
+    definition: >-
+      Roper Technologies' network-effect software segment (~21% of revenue)
+      comprising marketplaces and platforms for construction information
+      (ConstructConnect), freight matching (DAT Solutions), life insurance
+      distribution (iPipeline), produce supply chain (iTradeNetwork),
+      long-term care pharmacy (SoftWriters), and healthcare logistics (MHA).
+    tags:
+      - Business Segment
+  - term: Technology Enabled Products Segment
+    definition: >-
+      Roper Technologies' hardware/software segment (~24% of revenue) comprising
+      medical ultrasound and biopsy devices (CIVCO, Verathon), flow measurement
+      (FMI), wireless sensor networks (Inovonics), non-contact position sensing
+      (Northern Digital), RF identification readers (rf IDEAS), and precision
+      inertial systems (IPA).
+    tags:
+      - Business Segment
+  - term: Vertical SaaS
+    definition: >-
+      Software-as-a-Service tailored to the specific workflows and requirements
+      of a particular industry vertical, as opposed to horizontal platforms.
+      Roper Technologies specializes in acquiring leading vertical SaaS
+      businesses in niche markets.
+    tags:
+      - Business Model
+  - term: Asset-Light Model
+    definition: >-
+      Roper Technologies' strategic focus on software and network businesses
+      with minimal capital expenditure requirements, high recurring revenue,
+      and strong cash flow conversion, enabling disciplined capital deployment
+      for acquisitions.
+    tags:
+      - Business Model
+  - term: Aderant
+    definition: >-
+      A Roper Technologies subsidiary providing comprehensive business
+      management software for law firms and professional services organizations,
+      serving nearly 3,200 clients including 77 of the top 100 Global Law Firms.
+    tags:
+      - Legal Technology
+      - Subsidiary
+  - term: Clinisys
+    definition: >-
+      A Roper Technologies subsidiary delivering laboratory information systems
+      and diagnostic informatics for clinical, veterinary, and public health
+      laboratories globally.
+    tags:
+      - Healthcare IT
+      - Subsidiary
+  - term: Deltek
+    definition: >-
+      A Roper Technologies subsidiary providing ERP and project management
+      software for government contractors, professional services firms, and
+      architecture/engineering/construction companies, serving 23,000+
+      organizations.
+    tags:
+      - ERP
+      - Subsidiary
+  - term: Vertafore
+    definition: >-
+      A Roper Technologies subsidiary and leader in insurance technology,
+      providing agency management, ratings, compliance, and analytics for
+      20,000+ agencies and 1,000+ carriers.
+    tags:
+      - Insurance Technology
+      - Subsidiary
+  - term: Frontline Education
+    definition: >-
+      A Roper Technologies subsidiary providing human capital management
+      software for K-12 school districts, including hiring, absence management,
+      professional development, and employee records.
+    tags:
+      - Education
+      - Subsidiary
+  - term: DAT Solutions
+    definition: >-
+      A Roper Technologies subsidiary operating the largest truckload freight
+      marketplace in North America, providing load boards, rate analytics, and
+      carrier connectivity for the logistics industry.
+    tags:
+      - Freight
+      - Subsidiary
+  - term: ConstructConnect
+    definition: >-
+      A Roper Technologies subsidiary providing construction project data,
+      bidding, and estimating platforms for commercial construction contractors,
+      subcontractors, and suppliers.
+    tags:
+      - Construction
+      - Subsidiary
+  - term: iPipeline
+    definition: >-
+      A Roper Technologies subsidiary providing digital transformation and
+      straight-through processing platforms for life insurance distribution,
+      connecting carriers, distributors, and advisors.
+    tags:
+      - Insurance Technology
+      - Subsidiary
+  - term: Recurring Revenue
+    definition: >-
+      Revenue from software subscriptions, maintenance contracts, and
+      transaction-based services that renews predictably. Roper Technologies
+      reports over two-thirds of total revenue as recurring or reoccurring.
+    tags:
+      - Business Model
+      - Finance
