@@ -216,7 +216,7 @@ common:
     url: https://www.linkedin.com/company/roper-technologies
   - type: Vocabulary
     url: vocabulary/roper-technologies-vocabulary.yml
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/roper-technologies-context.jsonld
   - type: JSONSchema
     url: json-schema/roper-technologies-company-schema.json
