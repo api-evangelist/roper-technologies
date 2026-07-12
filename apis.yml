@@ -208,6 +208,8 @@ apis:
       - Transportation
       - Visibility
 common:
+  - type: DomainSecurity
+    url: security/roper-technologies-domain-security.yml
   - type: Website
     url: https://www.ropertech.com
   - type: Investor Relations
