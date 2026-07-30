@@ -1,4 +1,17 @@
 aid: roper-technologies
+accessModel:
+  pricing: enterprise
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Enterprise
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/roper-technologies.png
 name: Roper Technologies
 description: >-
   Roper Technologies is a diversified technology holding company (NASDAQ: ROP)
