@@ -36,6 +36,15 @@ tags:
   - Healthcare IT
   - Insurance Technology
   - Legal Technology
+  - Software-as-a-Service
+  - Vertical Software
+tags_raw:
+  - B2B Software
+  - Enterprise Software
+  - Fortune 500
+  - Healthcare IT
+  - Insurance Technology
+  - Legal Technology
   - SaaS
   - Vertical Software
 created: '2025-01-01'
@@ -102,6 +111,12 @@ apis:
       - Government Contracting
       - Professional Services
       - Project Management
+      - Software-as-a-Service
+    tags_raw:
+      - ERP
+      - Government Contracting
+      - Professional Services
+      - Project Management
       - SaaS
   - aid: roper-technologies:vertafore-api
     name: Vertafore Insurance Technology API
@@ -122,6 +137,12 @@ apis:
       - Insurance
       - Insurance Technology
       - Policy Management
+      - Software-as-a-Service
+    tags_raw:
+      - Agency Management
+      - Insurance
+      - Insurance Technology
+      - Policy Management
       - SaaS
   - aid: roper-technologies:frontline-education-api
     name: Frontline Education HR Software API
@@ -138,6 +159,12 @@ apis:
       - type: Website
         url: https://www.frontlineeducation.com/
     tags:
+      - Education
+      - HR Software
+      - HCM
+      - K-12
+      - Software-as-a-Service
+    tags_raw:
       - Education
       - HR Software
       - Human Capital Management
@@ -197,6 +224,12 @@ apis:
       - type: Website
         url: https://ipipeline.com/
     tags:
+      - Financial-Services
+      - Insurance
+      - Insurance Technology
+      - Life Insurance
+      - Software-as-a-Service
+    tags_raw:
       - Financial Services
       - Insurance
       - Insurance Technology
