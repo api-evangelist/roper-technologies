@@ -1,7 +1,9 @@
 ---
 title: Roper Technologies to acquire CentralReach
 url: https://www.ropertech.com/news-releases/news-release-details/roper-technologies-acquire-centralreach
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Roper Technologies" press release artificial intelligence'
 position: 1
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Roper Technologies strengthens AI leadership with key ...
 url: https://www.ropertech.com/news-releases/news-release-details/roper-technologies-strengthens-ai-leadership-key-executive/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Roper Technologies" press release artificial intelligence'
 position: 2
 source: serpapi-google
