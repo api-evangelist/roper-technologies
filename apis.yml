@@ -46,7 +46,7 @@ tags:
   - Fortune 500
   - Healthcare IT
   - Insurance Technology
-  - Legal Technology
+  - Legal Tech
   - Software-as-a-Service
   - Vertical Software
 tags_raw:
@@ -77,6 +77,12 @@ apis:
       - type: Website
         url: https://www.aderant.com/
     tags:
+      - Billing
+      - Legal
+      - Legal Tech
+      - Matter Management
+      - Professional Services
+    tags_raw:
       - Billing
       - Legal
       - Legal Technology
@@ -235,7 +241,7 @@ apis:
       - type: Website
         url: https://ipipeline.com/
     tags:
-      - Financial-Services
+      - Financial Services
       - Insurance
       - Insurance Technology
       - Life Insurance
@@ -246,6 +252,7 @@ apis:
       - Insurance Technology
       - Life Insurance
       - SaaS
+      - Financial-Services
   - aid: roper-technologies:intellitrans-api
     name: IntelliTrans Supply Chain Visibility API
     description: >-
